@@ -1,0 +1,166 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+\lstset{
+  inputencoding=utf8,
+  extendedchars=true,
+  literate={á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+           {â}{{\^a}}1 {ê}{{\^e}}1 {ô}{{\^o}}1
+           {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+           {ã}{{\~a}}1 {õ}{{\~o}}1 {Ã}{{\~A}}1 {Õ}{{\~O}}1
+           {ç}{{\c{c}}}1 {Ç}{{\c{C}}}1
+           {à}{{\`a}}1 {À}{{\`A}}1,
+  language=C,
+  captionpos=b,
+  tabsize=4,
+  showspaces=false,
+  showstringspaces=false,
+  basicstyle=\ttfamily\small,
+  commentstyle=\color{gray}\ttfamily\itshape
+}
+
+\title{Relatório do Trabalho Prático de POO: \\ 
+Sistema de Gestão de Obra de Construção Civil}
+\author{Bruno Paiva \\ a31496@alunos.ipca.pt \\ \\ IPCA - Licenciatura de Engenharia de Sistemas Informáticos}
+\date{Novembro 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este relatório descreve o desenvolvimento do trabalho prático da Unidade Curricular de Programação Orientada a Objetos (POO), focado no tema \textbf{Gestão de Obra de Construção Civil}. O objetivo principal é a aplicação do Paradigma Orientado a Objetos para modelar e gerir os custos associados a uma obra, incluindo materiais, armazéns, mão de obra (própria e subcontratada), veículos, e orçamentos.
+O documento detalha a estrutura de classes, a arquitetura da solução em múltiplas camadas (\texttt{.Core}), o uso de interfaces para promover o desacoplamento e a aplicação de exceções customizadas para um tratamento de erros robusto. O projeto demonstra a consolidação de conceitos POO e boas práticas de desenvolvimento em C\#, cumprindo os requisitos iniciais para a Fase 1.
+\end{abstract}
+
+\tableofcontents
+
+\chapter{Introdução}
+\section{Motivação e Tema}
+O trabalho foi desenvolvido no contexto da UC de POO, com o propósito de aplicar conceitos POO na resolução de problemas reais de complexidade moderada. O tema escolhido, \textbf{Gestão de Obra de Construção Civil}, envolve o controlo e a gestão dos custos de uma obra específica. As entidades-chave modeladas incluem: materiais, armazéns, stocks, viaturas, e mão de obra/serviços.
+
+\section{Objetivos da Solução}
+Os principais objetivos de desenvolvimento, alinhados com os requisitos da Fase 1, foram:
+\begin{itemize}
+\item Analisar o problema e identificar a estrutura de classes e estruturas de dados.
+\item Desenvolver a solução em C\#, aplicando interfaces, herança, abstração e encapsulamento.
+\item Implementar o cálculo dos custos totais da obra e a variação orçamental.
+\item Utilizar exceções customizadas para um tratamento de erro limpo e específico.
+\item Estruturar o projeto em camadas (DLLs) para modularidade e reutilização.
+\end{itemize}
+
+\chapter{Arquitetura e Estrutura da Solução}
+\section{Arquitetura em Camadas}
+A solução foi arquitetada em duas camadas principais, utilizando o conceito de bibliotecas (.DLL) para separação de responsabilidades, conforme as boas práticas de programação por camadas:
+\begin{itemize}
+    \item \textbf{Projeto\_POO.Core}: Contém toda a \textbf{lógica de negócio} (Classes e Interfaces). Esta biblioteca define as entidades e as regras de gestão da obra, sendo independente de qualquer interface de utilizador, promovendo reutilização e extensibilidade.
+    \item \textbf{Projeto\_POO}: Contém o programa principal (\texttt{Program.cs}) e a \textbf{lógica de apresentação} e interação com o Core (atualmente, a aplicação demonstradora).
+\end{itemize}
+
+\section{Hierarquia de Classes e Interfaces}
+\label{sec:diagrama_classes} 
+
+A estrutura central do sistema é baseada na classe agregadora \texttt{ConstructionWork}. A solução utiliza um conjunto de interfaces para definir contratos e tipificar as diferentes entidades, promovendo o desacoplamento e a aplicação do Polimorfismo.
+
+\subsection{Interfaces Fundamentais}
+As interfaces definem as capacidades essenciais de cada entidade, assegurando a conformidade e a extensibilidade do sistema:
+\begin{itemize}
+    \item \texttt{ICostable}: Contrato para todas as entidades que contribuem para o custo total da obra (\texttt{GetCost()}).
+    \item \texttt{IDescribable}: Garante que a entidade possui uma descrição ou nome (\texttt{GetDescription()}).
+    \item \texttt{IReportable}: Contrato para a geração de relatórios formatados (\texttt{GetReport()}).
+    \item \texttt{IIdentifiable}: Define uma identificação única para a entidade (\texttt{GetId()}).
+    \item \texttt{IDateable}: Garante que a entidade possui uma data associada.
+    \item \texttt{IStorable}: Define capacidades de gestão de stock (quantidade, adicionar, remover).
+\end{itemize}
+
+\subsection{Classes Abstratas e Concretas}
+A arquitetura do sistema é construída em torno da seguinte hierarquia e relações:
+
+\subsubsection*{CostableItem (Classe Abstrata)}
+\texttt{CostableItem} é uma classe abstrata que serve como base para todas as entidades que possuem um custo e uma descrição. Ela implementa as interfaces \texttt{ICostable} e \texttt{IDescribable}, fornecendo uma implementação base para os métodos \texttt{GetCost()} e \texttt{GetDescription()}.
+
+\subsubsection*{Labor (Mão de Obra / Serviços)}
+\texttt{Labor} herda de \texttt{CostableItem}. Esta classe representa tanto a mão de obra própria quanto os serviços subcontratados. Possui atributos como ID, nome, custo por hora, horas trabalhadas e um flag \texttt{\_isSubcontracted} para diferenciar os tipos de mão de obra/serviços. Implementa também \texttt{IIdentifiable}, \texttt{IDateable} e \texttt{IReportable}.
+
+\subsubsection*{Material}
+A classe \texttt{Material} representa os materiais utilizados na obra, com atributos como ID, nome, unidade de medida e preço unitário. Ela implementa \texttt{ICostable}, \texttt{IDescribable} e \texttt{IIdentifiable}.
+
+\subsubsection*{Storage (Armazém)}
+\texttt{Storage} representa um armazém onde os materiais são guardados. Contém uma lista de \texttt{StorageItem}s. Implementa \texttt{IDescribable}, \texttt{IIdentifiable} e \texttt{IReportable}.
+
+\subsubsection*{StorageItem (Item em Armazém)}
+Um \texttt{StorageItem} representa uma entrada específica de um \texttt{Material} dentro de um \texttt{Storage}, incluindo a quantidade desse material. Este item calcula o seu custo com base na quantidade e no preço do \texttt{Material} associado. Implementa \texttt{ICostable}, \texttt{IStorable} e \texttt{IReportable}.
+
+\subsubsection*{Vehicle (Veículo)}
+A classe \texttt{Vehicle} representa uma viatura, com atributos como ID, matrícula e custo por hora. Implementa \texttt{IDescribable}, \texttt{IIdentifiable} e \texttt{IReportable}.
+
+\subsubsection*{VehicleUsage (Uso de Veículo)}
+\texttt{VehicleUsage} regista a utilização de um \texttt{Vehicle} específico, registando as horas de uso. Calcula o custo total com base nas horas e no custo por hora do \texttt{Vehicle} associado. Implementa \texttt{ICostable} e \texttt{IReportable}.
+
+\subsubsection*{Budget (Orçamento)}
+A classe \texttt{Budget} representa uma rubrica orçamental, com um nome e um valor definido. Implementa \texttt{ICostable} e \texttt{IDescribable}.
+
+\subsubsection*{Document (Documento)}
+\texttt{Document} representa um documento associado à obra, com ID, tipo, data e descrição. Implementa \texttt{IDescribable}, \texttt{IIdentifiable}, \texttt{IDateable} e \texttt{IReportable}.
+
+\subsubsection*{ConstructionWork (Obra de Construção)}
+Esta é a classe central e agregadora do sistema. \texttt{ConstructionWork} contém listas de \texttt{Storage}, \texttt{Labor}, \texttt{Vehicle}, \texttt{VehicleUsage}, \texttt{Budget} e \texttt{Document}. É responsável por agregar e calcular o custo total da obra, somando os custos de todos os itens agregados de forma polimórfica (através da interface \texttt{ICostable}).
+
+\subsection{Relações Principais}
+O sistema estabelece as seguintes relações entre as classes:
+\begin{itemize}
+    \item \textbf{Herança (\texttt{CostableItem} $\to$ \texttt{Labor})}: \texttt{Labor} herda de \texttt{CostableItem}, reutilizando a lógica base de custo e descrição.
+    \item \textbf{Composição/Associação (\texttt{Storage} $\to$ \texttt{StorageItem} $\to$ \texttt{Material})}: Um \texttt{Storage} contém múltiplos \texttt{StorageItem}s, e cada \texttt{StorageItem} referencia um \texttt{Material} específico.
+    \item \textbf{Composição/Associação (\texttt{Vehicle} $\to$ \texttt{VehicleUsage})}: Um \texttt{VehicleUsage} está associado a um \texttt{Vehicle} específico para registar o seu uso.
+    \item \textbf{Agregação (\texttt{ConstructionWork} $\to$ Outras Classes)}: A classe \texttt{ConstructionWork} agrega (contém listas de) instâncias de \texttt{Storage}, \texttt{Labor}, \texttt{Vehicle}, \texttt{VehicleUsage}, \texttt{Budget} e \texttt{Document}, formando a estrutura completa de uma obra.
+    \item \textbf{Realização de Interfaces}: Diversas classes realizam interfaces como \texttt{ICostable}, \texttt{IDescribable}, \texttt{IIdentifiable}, \texttt{IReportable}, \texttt{IDateable} e \texttt{IStorable}, garantindo a conformidade e a capacidade de interagir de forma polimórfica.
+\end{itemize}
+
+\chapter{Aplicação dos Pilares POO}
+\section{Encapsulamento}
+Todas as classes utilizam campos privados (\texttt{\_field}) e propriedades ou métodos \texttt{Get/Set} públicos para controlar o acesso e a modificação dos dados, cumprindo o pilar de Encapsulamento. Isto protege o estado interno dos objetos.
+
+\section{Abstração e Polimorfismo}
+\begin{itemize}
+    \item A interface \texttt{ICostable} representa a \textbf{Abstração} de que "algo tem um custo".
+    \item O método \texttt{totalCost()} em \texttt{ConstructionWork} demonstra \textbf{Polimorfismo} ao somar os custos de diferentes tipos de objetos (materiais, mão de obra, veículos, orçamentos) apenas chamando o método \texttt{GetCost()} definido na interface, sem se preocupar com a implementação interna de cada objeto.
+\end{itemize}
+
+\section{Exceções Customizadas}
+Foram criadas exceções customizadas (estendendo \texttt{Exception}) para lidar com condições de erro específicas do domínio:
+\begin{itemize}
+    \item \texttt{InvalidQuantityException}: Lançada ao tentar adicionar ou remover stock com quantidade $\le 0$.
+    \item \texttt{MaterialNotFoundException}: Lançada ao tentar remover stock de um material inexistente.
+    \item \texttt{InsufficientStockException}: Gerencia a falha na remoção quando o stock disponível é menor que o solicitado.
+\end{itemize}
+
+\chapter{Conclusões e Trabalho Futuro}
+\section{Conclusões}
+O projeto na sua Fase 1 cumpriu os requisitos de modelação e implementação essencial das classes, com uma clara aplicação dos pilares POO. A utilização de interfaces e classes abstratas promoveu o desacoplamento e a reutilização do código. A modelação da classe \texttt{Labor} para incluir serviços subcontratados simplificou a estrutura de custos, mantendo a coerência do sistema. A arquitetura em camadas e o uso de exceções customizadas estabelecem uma base robusta para a continuidade do desenvolvimento.
+
+\section{Trabalho Futuro (Fase 2)}
+Para a próxima fase (19-12-2025), os próximos passos incluem:
+\begin{itemize}
+    \item \textbf{Implementação Final:} Refinar a lógica de negócio e as validações, corrigindo inconsistências como as referências remanescentes a `Service` em \texttt{ConstructionWork.cs}.
+    \item \textbf{Aplicação Demonstradora:} Implementar a aplicação demonstradora no projeto \texttt{Projeto\_POO} para exercer os serviços implementados no \texttt{.Core}.
+    \item \textbf{Testes Unitários:} Implementar testes para garantir uma cobertura mínima de 50\% do código.
+    \item \textbf{Persistência de Dados:} Adicionar a funcionalidade de guardar e carregar a obra em ficheiros.
+\end{itemize}
+
+\section{Link do Repositório GitHub}
+Poderá aceder ao código-fonte completo através do seguinte link: 
+\newline\url{https://github.com/yesisr/TP_POO_Fase-1}
+
+\end{document}

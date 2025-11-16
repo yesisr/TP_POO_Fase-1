@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Projeto_POO.Core/1.0.0": {
+        "runtime": {
+          "Projeto_POO.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projeto_POO.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
