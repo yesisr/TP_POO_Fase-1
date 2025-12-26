@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO/Projeto_POO.csproj": {}
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/Projeto_POO/Projeto_POO.csproj": {}
   },
   "projects": {
-    "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO.Core/Projeto_POO.Core.csproj": {
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/binary_manager/binary_manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO.Core/Projeto_POO.Core.csproj",
-        "projectName": "Projeto_POO.Core",
-        "projectPath": "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO.Core/Projeto_POO.Core.csproj",
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/binary_manager/binary_manager.csproj",
+        "projectName": "binary_manager",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/binary_manager/binary_manager.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO.Core/obj/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/binary_manager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO/Projeto_POO.csproj": {
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/budget/budget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO/Projeto_POO.csproj",
-        "projectName": "Projeto_POO",
-        "projectPath": "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO/Projeto_POO.csproj",
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/budget/budget.csproj",
+        "projectName": "budget",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/budget/budget.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO/obj/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/budget/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -85,8 +85,651 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO.Core/Projeto_POO.Core.csproj": {
-                "projectPath": "/Users/user/Documents/2ano/programacao_objetos/fase1/Projeto_POO.Core/Projeto_POO.Core.csproj"
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_work/construction_work.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_work/construction_work.csproj",
+        "projectName": "construction_work",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_work/construction_work.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_work/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/binary_manager/binary_manager.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/binary_manager/binary_manager.csproj"
+              },
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/budget/budget.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/budget/budget.csproj"
+              },
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj"
+              },
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/labor/labor.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/labor/labor.csproj"
+              },
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/storage/storage.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage/storage.csproj"
+              },
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle/vehicle.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle/vehicle.csproj"
+              },
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle_usage/vehicle_usage.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle_usage/vehicle_usage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/custom_exceptions/custom_exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/custom_exceptions/custom_exceptions.csproj",
+        "projectName": "custom_exceptions",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/custom_exceptions/custom_exceptions.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/custom_exceptions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj",
+        "projectName": "interfaces",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/labor/labor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/labor/labor.csproj",
+        "projectName": "labor",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/labor/labor.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/labor/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/material/material.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/material/material.csproj",
+        "projectName": "material",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/material/material.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/material/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/Projeto_POO/Projeto_POO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/Projeto_POO/Projeto_POO.csproj",
+        "projectName": "Projeto_POO",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/Projeto_POO/Projeto_POO.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/Projeto_POO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_work/construction_work.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_work/construction_work.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/storage/storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage/storage.csproj",
+        "projectName": "storage",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage/storage.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/custom_exceptions/custom_exceptions.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/custom_exceptions/custom_exceptions.csproj"
+              },
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/storage_item/storage_item.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage_item/storage_item.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/storage_item/storage_item.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage_item/storage_item.csproj",
+        "projectName": "storage_item",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage_item/storage_item.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage_item/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/material/material.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/material/material.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle/vehicle.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle/vehicle.csproj",
+        "projectName": "vehicle",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle/vehicle.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle_usage/vehicle_usage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle_usage/vehicle_usage.csproj",
+        "projectName": "vehicle_usage",
+        "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle_usage/vehicle_usage.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle_usage/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle/vehicle.csproj": {
+                "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/vehicle/vehicle.csproj"
               }
             }
           }

@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Projeto_POO.Core\Projeto_POO.Core.csproj" />
+    <ProjectReference Include="../construction_work/construction_work.csproj" />
+    <ProjectReference Include="..\Projeto_POO.Core\Projeto_POO.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
