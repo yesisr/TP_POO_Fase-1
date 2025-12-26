@@ -1,0 +1,11 @@
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/bin/Debug/net9.0/interfaces.deps.json
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/bin/Debug/net9.0/interfaces.dll
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/bin/Debug/net9.0/interfaces.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/obj/Debug/net9.0/interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/obj/Debug/net9.0/interfaces.AssemblyInfoInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/obj/Debug/net9.0/interfaces.AssemblyInfo.cs
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/obj/Debug/net9.0/interfaces.csproj.CoreCompileInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/obj/Debug/net9.0/interfaces.dll
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/obj/Debug/net9.0/refint/interfaces.dll
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/obj/Debug/net9.0/interfaces.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/interfaces/obj/Debug/net9.0/ref/interfaces.dll

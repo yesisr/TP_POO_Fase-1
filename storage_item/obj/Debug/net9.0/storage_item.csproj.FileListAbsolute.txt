@@ -1,0 +1,17 @@
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/bin/Debug/net9.0/storage_item.deps.json
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/bin/Debug/net9.0/storage_item.dll
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/bin/Debug/net9.0/storage_item.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/bin/Debug/net9.0/interfaces.dll
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/bin/Debug/net9.0/material.dll
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/bin/Debug/net9.0/material.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/bin/Debug/net9.0/interfaces.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/storage_item.csproj.AssemblyReference.cache
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/storage_item.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/storage_item.AssemblyInfoInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/storage_item.AssemblyInfo.cs
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/storage_item.csproj.CoreCompileInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/storage_.FC021EC5.Up2Date
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/storage_item.dll
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/refint/storage_item.dll
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/storage_item.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/storage_item/obj/Debug/net9.0/ref/storage_item.dll

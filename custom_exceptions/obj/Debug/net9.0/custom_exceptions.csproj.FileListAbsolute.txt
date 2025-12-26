@@ -1,0 +1,11 @@
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/bin/Debug/net9.0/custom_exceptions.deps.json
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/bin/Debug/net9.0/custom_exceptions.dll
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/bin/Debug/net9.0/custom_exceptions.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/obj/Debug/net9.0/custom_exceptions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/obj/Debug/net9.0/custom_exceptions.AssemblyInfoInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/obj/Debug/net9.0/custom_exceptions.AssemblyInfo.cs
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/obj/Debug/net9.0/custom_exceptions.csproj.CoreCompileInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/obj/Debug/net9.0/custom_exceptions.dll
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/obj/Debug/net9.0/refint/custom_exceptions.dll
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/obj/Debug/net9.0/custom_exceptions.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/custom_exceptions/obj/Debug/net9.0/ref/custom_exceptions.dll

@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "custom_exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/custom_exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/custom_exceptions.dll": {}
+        }
+      },
+      "interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/interfaces.dll": {}
+        }
+      },
+      "material/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/material.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/material.dll": {}
+        }
+      },
+      "storage_item/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "material": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/storage_item.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/storage_item.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "custom_exceptions/1.0.0": {
+      "type": "project",
+      "path": "../custom_exceptions/custom_exceptions.csproj",
+      "msbuildProject": "../custom_exceptions/custom_exceptions.csproj"
+    },
+    "interfaces/1.0.0": {
+      "type": "project",
+      "path": "../interfaces/interfaces.csproj",
+      "msbuildProject": "../interfaces/interfaces.csproj"
+    },
+    "material/1.0.0": {
+      "type": "project",
+      "path": "../material/material.csproj",
+      "msbuildProject": "../material/material.csproj"
+    },
+    "storage_item/1.0.0": {
+      "type": "project",
+      "path": "../storage_item/storage_item.csproj",
+      "msbuildProject": "../storage_item/storage_item.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "custom_exceptions >= 1.0.0",
+      "storage_item >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/user/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage/storage.csproj",
+      "projectName": "storage",
+      "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage/storage.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/user/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/user/Documents/github/TP_POO_Fase-2 2/custom_exceptions/custom_exceptions.csproj": {
+              "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/custom_exceptions/custom_exceptions.csproj"
+            },
+            "/Users/user/Documents/github/TP_POO_Fase-2 2/storage_item/storage_item.csproj": {
+              "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/storage_item/storage_item.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

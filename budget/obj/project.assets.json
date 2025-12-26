@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "interfaces/1.0.0": {
+      "type": "project",
+      "path": "../interfaces/interfaces.csproj",
+      "msbuildProject": "../interfaces/interfaces.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "interfaces >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/user/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/budget/budget.csproj",
+      "projectName": "budget",
+      "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/budget/budget.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/budget/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/user/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj": {
+              "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/interfaces/interfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

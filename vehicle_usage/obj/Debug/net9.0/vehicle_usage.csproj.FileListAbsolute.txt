@@ -1,0 +1,17 @@
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/vehicle_usage.csproj.AssemblyReference.cache
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/vehicle_usage.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/vehicle_usage.AssemblyInfoInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/vehicle_usage.AssemblyInfo.cs
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/vehicle_usage.csproj.CoreCompileInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/bin/Debug/net9.0/vehicle_usage.deps.json
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/bin/Debug/net9.0/vehicle_usage.dll
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/bin/Debug/net9.0/vehicle_usage.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/bin/Debug/net9.0/interfaces.dll
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/bin/Debug/net9.0/vehicle.dll
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/bin/Debug/net9.0/vehicle.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/bin/Debug/net9.0/interfaces.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/vehicle_.7CB4AF51.Up2Date
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/vehicle_usage.dll
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/refint/vehicle_usage.dll
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/vehicle_usage.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/vehicle_usage/obj/Debug/net9.0/ref/vehicle_usage.dll

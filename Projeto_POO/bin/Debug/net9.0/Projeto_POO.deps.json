@@ -1,0 +1,200 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Projeto_POO/1.0.0": {
+        "dependencies": {
+          "construction_work": "1.0.0"
+        },
+        "runtime": {
+          "Projeto_POO.dll": {}
+        }
+      },
+      "binary_manager/1.0.0": {
+        "runtime": {
+          "binary_manager.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "budget/1.0.0": {
+        "dependencies": {
+          "interfaces": "1.0.0"
+        },
+        "runtime": {
+          "budget.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "construction_work/1.0.0": {
+        "dependencies": {
+          "binary_manager": "1.0.0",
+          "budget": "1.0.0",
+          "interfaces": "1.0.0",
+          "labor": "1.0.0",
+          "storage": "1.0.0",
+          "vehicle": "1.0.0",
+          "vehicle_usage": "1.0.0"
+        },
+        "runtime": {
+          "construction_work.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "custom_exceptions/1.0.0": {
+        "runtime": {
+          "custom_exceptions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "interfaces/1.0.0": {
+        "runtime": {
+          "interfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "labor/1.0.0": {
+        "dependencies": {
+          "interfaces": "1.0.0"
+        },
+        "runtime": {
+          "labor.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "material/1.0.0": {
+        "dependencies": {
+          "interfaces": "1.0.0"
+        },
+        "runtime": {
+          "material.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "storage/1.0.0": {
+        "dependencies": {
+          "custom_exceptions": "1.0.0",
+          "storage_item": "1.0.0"
+        },
+        "runtime": {
+          "storage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "storage_item/1.0.0": {
+        "dependencies": {
+          "material": "1.0.0"
+        },
+        "runtime": {
+          "storage_item.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "vehicle/1.0.0": {
+        "dependencies": {
+          "interfaces": "1.0.0"
+        },
+        "runtime": {
+          "vehicle.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "vehicle_usage/1.0.0": {
+        "dependencies": {
+          "vehicle": "1.0.0"
+        },
+        "runtime": {
+          "vehicle_usage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projeto_POO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "binary_manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "budget/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "construction_work/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "custom_exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "labor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "material/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "storage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "storage_item/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "vehicle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "vehicle_usage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

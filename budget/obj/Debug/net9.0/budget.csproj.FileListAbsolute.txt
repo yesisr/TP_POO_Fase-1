@@ -1,0 +1,15 @@
+/Users/user/Documents/github/TP_POO_Fase-2/budget/bin/Debug/net9.0/budget.deps.json
+/Users/user/Documents/github/TP_POO_Fase-2/budget/bin/Debug/net9.0/budget.dll
+/Users/user/Documents/github/TP_POO_Fase-2/budget/bin/Debug/net9.0/budget.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/budget/bin/Debug/net9.0/interfaces.dll
+/Users/user/Documents/github/TP_POO_Fase-2/budget/bin/Debug/net9.0/interfaces.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/budget.csproj.AssemblyReference.cache
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/budget.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/budget.AssemblyInfoInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/budget.AssemblyInfo.cs
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/budget.csproj.CoreCompileInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/budget.csproj.Up2Date
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/budget.dll
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/refint/budget.dll
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/budget.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/budget/obj/Debug/net9.0/ref/budget.dll

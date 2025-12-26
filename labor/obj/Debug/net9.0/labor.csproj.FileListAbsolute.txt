@@ -1,0 +1,15 @@
+/Users/user/Documents/github/TP_POO_Fase-2/labor/bin/Debug/net9.0/labor.deps.json
+/Users/user/Documents/github/TP_POO_Fase-2/labor/bin/Debug/net9.0/labor.dll
+/Users/user/Documents/github/TP_POO_Fase-2/labor/bin/Debug/net9.0/labor.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/labor/bin/Debug/net9.0/interfaces.dll
+/Users/user/Documents/github/TP_POO_Fase-2/labor/bin/Debug/net9.0/interfaces.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/labor.csproj.AssemblyReference.cache
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/labor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/labor.AssemblyInfoInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/labor.AssemblyInfo.cs
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/labor.csproj.CoreCompileInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/labor.csproj.Up2Date
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/labor.dll
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/refint/labor.dll
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/labor.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/labor/obj/Debug/net9.0/ref/labor.dll

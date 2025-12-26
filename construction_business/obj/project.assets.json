@@ -1,0 +1,276 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "binary_manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/binary_manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/binary_manager.dll": {}
+        }
+      },
+      "budget/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/budget.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/budget.dll": {}
+        }
+      },
+      "construction_work/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "binary_manager": "1.0.0",
+          "budget": "1.0.0",
+          "interfaces": "1.0.0",
+          "labor": "1.0.0",
+          "storage": "1.0.0",
+          "vehicle": "1.0.0",
+          "vehicle_usage": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/construction_work.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/construction_work.dll": {}
+        }
+      },
+      "custom_exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/custom_exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/custom_exceptions.dll": {}
+        }
+      },
+      "interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/interfaces.dll": {}
+        }
+      },
+      "labor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/labor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/labor.dll": {}
+        }
+      },
+      "material/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/material.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/material.dll": {}
+        }
+      },
+      "storage/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "custom_exceptions": "1.0.0",
+          "storage_item": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/storage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/storage.dll": {}
+        }
+      },
+      "storage_item/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "material": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/storage_item.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/storage_item.dll": {}
+        }
+      },
+      "vehicle/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/vehicle.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/vehicle.dll": {}
+        }
+      },
+      "vehicle_usage/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "vehicle": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/vehicle_usage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/vehicle_usage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "binary_manager/1.0.0": {
+      "type": "project",
+      "path": "../binary_manager/binary_manager.csproj",
+      "msbuildProject": "../binary_manager/binary_manager.csproj"
+    },
+    "budget/1.0.0": {
+      "type": "project",
+      "path": "../budget/budget.csproj",
+      "msbuildProject": "../budget/budget.csproj"
+    },
+    "construction_work/1.0.0": {
+      "type": "project",
+      "path": "../construction_work/construction_work.csproj",
+      "msbuildProject": "../construction_work/construction_work.csproj"
+    },
+    "custom_exceptions/1.0.0": {
+      "type": "project",
+      "path": "../custom_exceptions/custom_exceptions.csproj",
+      "msbuildProject": "../custom_exceptions/custom_exceptions.csproj"
+    },
+    "interfaces/1.0.0": {
+      "type": "project",
+      "path": "../interfaces/interfaces.csproj",
+      "msbuildProject": "../interfaces/interfaces.csproj"
+    },
+    "labor/1.0.0": {
+      "type": "project",
+      "path": "../labor/labor.csproj",
+      "msbuildProject": "../labor/labor.csproj"
+    },
+    "material/1.0.0": {
+      "type": "project",
+      "path": "../material/material.csproj",
+      "msbuildProject": "../material/material.csproj"
+    },
+    "storage/1.0.0": {
+      "type": "project",
+      "path": "../storage/storage.csproj",
+      "msbuildProject": "../storage/storage.csproj"
+    },
+    "storage_item/1.0.0": {
+      "type": "project",
+      "path": "../storage_item/storage_item.csproj",
+      "msbuildProject": "../storage_item/storage_item.csproj"
+    },
+    "vehicle/1.0.0": {
+      "type": "project",
+      "path": "../vehicle/vehicle.csproj",
+      "msbuildProject": "../vehicle/vehicle.csproj"
+    },
+    "vehicle_usage/1.0.0": {
+      "type": "project",
+      "path": "../vehicle_usage/vehicle_usage.csproj",
+      "msbuildProject": "../vehicle_usage/vehicle_usage.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "construction_work >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/user/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_business/construction_business.csproj",
+      "projectName": "construction_business",
+      "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_business/construction_business.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_business/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/user/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_work/construction_work.csproj": {
+              "projectPath": "/Users/user/Documents/github/TP_POO_Fase-2 2/construction_work/construction_work.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

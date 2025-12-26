@@ -1,0 +1,15 @@
+/Users/user/Documents/github/TP_POO_Fase-2/material/bin/Debug/net9.0/material.deps.json
+/Users/user/Documents/github/TP_POO_Fase-2/material/bin/Debug/net9.0/material.dll
+/Users/user/Documents/github/TP_POO_Fase-2/material/bin/Debug/net9.0/material.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/material/bin/Debug/net9.0/interfaces.dll
+/Users/user/Documents/github/TP_POO_Fase-2/material/bin/Debug/net9.0/interfaces.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/material.csproj.AssemblyReference.cache
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/material.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/material.AssemblyInfoInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/material.AssemblyInfo.cs
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/material.csproj.CoreCompileInputs.cache
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/material.csproj.Up2Date
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/material.dll
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/refint/material.dll
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/material.pdb
+/Users/user/Documents/github/TP_POO_Fase-2/material/obj/Debug/net9.0/ref/material.dll
